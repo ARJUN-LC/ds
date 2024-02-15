@@ -1,6 +1,4 @@
 def binary_search(res, target):
-
-    res.sort()
     print(res)
     print("target=",target)
     high=len(res)-1
@@ -14,9 +12,9 @@ def binary_search(res, target):
             high=mid-1
         else:
             return "index=",mid
-    return -1
+    return low
 
-target=10
-res=[2,3,7,5,6,10,8,1]
+target=9
+res=[2,3,7,5,6,10,1]
 answer=binary_search(res,target)
 print(answer)

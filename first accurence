@@ -4,7 +4,7 @@ def first_accurence(arr,target):
         if arr[i]==target:
             return "index of the first accurence of target is:",i 
             break
-
+        
 arr =[2,3,4,5,6,5,5]
 target =5
 result=first_accurence(arr,target)
