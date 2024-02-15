@@ -1,7 +1,11 @@
+def first_accurence(arr,target):
+    print(arr)
+    for i in range(len(arr)):
+        if arr[i]==target:
+            return "index of the first accurence of target is:",i 
+            break
+
 arr =[2,3,4,5,6,5,5]
 target =5
-print(arr)
-for i in range(len(arr)):
-    if arr[i]==target:
-        print("index of the first accurence of target is:",i) 
-        break
+result=first_accurence(arr,target)
+print(result)
